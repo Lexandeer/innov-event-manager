@@ -1,1 +1,1 @@
-# innov-event-manager
+# innov-events-manager
