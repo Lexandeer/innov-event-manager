@@ -1,59 +1,33 @@
-# Frontend
+# Innov'Events Manager
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.1.
+Application de gestion d'événements pour l'agence Innov'Events.
 
-## Development server
+## Stack technique
 
-To start a local development server, run:
+- **Frontend** : Angular + Tailwind CSS
+- **Backend** : Node.js + Express
+- **BDD** : PostgreSQL + MongoDB
+- **Conteneurisation** : Docker
 
-```bash
-ng serve
-```
+## Prérequis
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- [Docker Desktop](https://www.docker.com/products/docker-desktop)
+- [Git](https://git-scm.com)
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Lancer le projet en local
 
 ```bash
-ng generate --help
+git clone https://github.com/Lexandeer/innov-event-manager.git
+cd innov-event-manager
+docker-compose up --build
 ```
 
-## Building
+L'application est ensuite accessible sur :
 
-To build the project run:
+- Frontend : http://localhost:4200
+- Backend : http://localhost:3000
 
-```bash
-ng build
-```
+## Branches
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- `main` : production
+- `dev` : développement
